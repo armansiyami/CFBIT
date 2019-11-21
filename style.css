@@ -1,12 +1,4 @@
-/* ============================================
-Template Name: Bufet
-Template URI:  http://marveltheme.com/tf/html/bufet
-Description:  Bufet - Multi Concept App, Saas and Software Landing Page
-Author:       marvel_theme
-Author URI:   https://themeforest.net/user/marvel_theme
-Version: 1.0
-===================================================
-
+/*------------------------------
 ##CSS TABLE OF CONTENT
 --------------------------------
 1. THEME BASIC CSS
@@ -194,14 +186,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     margin:0;
 }
 
 
 p{
-    font-weight: 400;
+    font-weight: 200;
     margin: 0;
 }
 body {
