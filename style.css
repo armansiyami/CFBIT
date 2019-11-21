@@ -50,9 +50,8 @@
 
 
 body {
-    -moz-transform: scale(0.6, 0.6); /* Moz-browsers */
-    zoom: 0.6 !important; /* Other non-webkit browsers */
-    zoom: 60% !important; /* Webkit browsers */
+    -moz-transform: scale(0.75, 0.75); /* Moz-browsers */
+    zoom: 75% !important; /* Webkit browsers */
 }
 
 .scrolltotop {
