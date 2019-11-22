@@ -123,8 +123,9 @@
             <div class="contact-wrapper">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="contact-form-area" style="margin-top: 60px;">
-                            <form id="digita-contact-form" action="php/contact-mail.php.html" method="POST">
+                        <div class="contact-form-area">
+                            <h2 class="text-capitalize">Receive a Free Quote</h2>
+                            <form name="contact_form" action="send_mail.php" method="post" enctype="text/plain">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="Name" name="name" placeholder="Your Name*">
                                 </div>
@@ -135,7 +136,7 @@
                                     <input type="email" class="form-control" id="Email" name="email" placeholder="Email Address*">
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" id="phone" name="phone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number*">
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number*">
                                 </div>
                                 <div class="form-group">
                                     <textarea id="Message" class="form-control" rows="1" name="numUsers" placeholder="Number of Users*"></textarea>
@@ -217,5 +218,6 @@
 <script src="assets/js/headroom.js"></script>
 <script src="assets/js/map.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/phoneautocomplete.js"></script>
 </body>
 </html>
